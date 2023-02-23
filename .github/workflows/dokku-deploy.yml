@@ -19,4 +19,4 @@ jobs:
         uses: dokku/github-action@master
         with:
           git_remote_url: 'ssh://dokku@paas.flaj.me:22/ruby-getting-started'
-          ssh_private_key: ${{ secrets.DOKKU_GITHUB_ACTIONS_SSH_PRIVATE_KEY }}
+          ssh_private_key: ${{secrets.DOKKU_GITHUB_ACTIONS_SSH_PRIVATE_KEY}}
